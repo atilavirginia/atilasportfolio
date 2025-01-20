@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Verdana", "Helvetica", Sans-Serif;
+    background-image: linear-gradient(90deg, black, black, #000000, #632EF0);
+    color: #F6F6F6;
+}
+
+a {
+    text-decoration: none;
+}
+
+#skillsText {
+    color: #9B9520;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.buttonsNav {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    color: #F6F6F6;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+}
+
+.buttonsNav:hover {
+    border-bottom: 5px solid #F0E02E;
+}
+
+#highlightText {
+    color: #F0E02E;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    background-color: #684DB0;
+    padding: 10px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+.buttonDiv:hover {
+    background-color: #9B9551;
+    box-shadow: 3px 3px  #000000, 3px 3px 5px #F0E02E;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: justify;
+}
+
+#myPhoto {
+    max-width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 10px -10px  #000000, 10px -10px 15px #9ecaed;
+}
+
+.centeredDiv {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonsMain {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoButton {
+    height: 40px;
+    object-fit: cover;
+}
+
+.textsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    align-items: center;
+    justify-content: space-around;  
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #574D70;
+    opacity: 90%;
+}
